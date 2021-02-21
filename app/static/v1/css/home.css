@@ -1,0 +1,9 @@
+/* Styles for home page */
+div.home_container {
+   margin-top: 20%;
+    text-align: center;
+}
+
+div.home_container ul > li:first-child img {
+    margin-bottom: 3rem;
+}

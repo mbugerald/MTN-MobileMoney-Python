@@ -1,0 +1,15 @@
+{% extends 'v1/base.html' %}
+{% block content %}
+    <div class="home_container">
+        <ul class="no-bullet">
+            <li>
+                <img src="{{ url_for('static', filename='v1/images/piton_logo.svg') }}" />
+            </li>
+            <li>
+                <p>Welcome! Let's get started.</p>
+                <p>Click on the button below to access Banque à Pitons API version 1.0</p>
+                <a href="api/v1/doc" class="button secondary hollow">ACCESS API V1</a>
+            </li>
+        </ul>
+    </div>
+{% endblock content %}

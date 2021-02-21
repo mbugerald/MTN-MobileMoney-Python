@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='v1/css/app.css')}}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='v1/css/not_found.css')}}" />
+    <title>404 !</title>
+</head>
+<body>
+
+    <div id="not_found_header">
+        <img src="{{ url_for('static', filename='v1/images/piton_logo.svg') }}" />
+    </div>
+    <section id="not_found_body">
+        <div>
+            <h3>404 !</h3>
+            <h5>Page Not Found</h5>
+        </div>
+    </section>
+
+</body>
+</html>
